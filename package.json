@@ -1,0 +1,26 @@
+{
+  "name": "c-level",
+  "version": "1.0.0",
+  "description": "The Executive AI C-Suite for Existing Products - CEO, CPO, CMO, CTO, and CRO decision-making engine for software codebases",
+  "keywords": [
+    "ai-agent",
+    "skills",
+    "c-level",
+    "executive-ai",
+    "product-strategy",
+    "roadmap-prioritization",
+    "niche-positioning",
+    "pricing-strategy",
+    "growth-vector",
+    "claude-code",
+    "antigravity",
+    "cursor",
+    "agentic-management"
+  ],
+  "author": "Thinh Vu <thinhvu>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThinhVu/c-level.git"
+  }
+}

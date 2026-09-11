@@ -1,0 +1,35 @@
+# Strategic Roadmap & RICE Prioritization: [Project Name]
+*Generated on: [Date] by `/prioritize-roadmap`*
+
+---
+
+## 1. Prioritization Framework (RICE Scoring)
+- **Reach**: How many users will this impact per quarter? (Count or %)
+- **Impact**: Massive (3), High (2), Medium (1), Low (0.5), Minimal (0.25)
+- **Confidence**: High (100%), Medium (80%), Low (50%)
+- **Effort**: Person-weeks or autonomous sprint cycles (1 to 5)
+- **RICE Score** = `(Reach × Impact × Confidence) / Effort`
+
+---
+
+## 2. Prioritized Roadmap Matrix
+
+| Rank | Feature / Initiative | Target ICP | Reach | Impact | Conf. | Effort | RICE | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **#1** | `[Feature A]` | `[Core Persona]` | `[100%]` | `[3.0]` | `[100%]` | `[1]` | `[300]` | **COMMISSIONED** |
+| **#2** | `[Feature B]` | `[Core Persona]` | `[60%]` | `[2.0]` | `[80%]` | `[2]` | `[48]` | **NEXT UP** |
+| **#3** | `[Feature C]` | `[Secondary]` | `[30%]` | `[1.0]` | `[50%]` | `[2]` | `[7.5]` | **BACKLOG** |
+
+---
+
+## 3. The "Will NOT Build" List (Disciplined Focus)
+*Features explicitly rejected to prevent scope creep, bloat, or diluted positioning:*
+- ❌ **`[Distraction Feature 1]`**: *Reason: Solves a low-margin edge case; distracts from core workflow.*
+- ❌ **`[Distraction Feature 2]`**: *Reason: Belongs in a separate tool; better integrated via webhook or Zapier.*
+
+---
+
+## 4. Execution Sprints (Delegation to D-Level)
+- **Sprint Target**: `[Feature A]`
+- **Acceptance Invariants Spec**: `c-suite/specs/[feature-a]-intent.md`
+- **Commission Command**: `/order-feature [feature-a]`

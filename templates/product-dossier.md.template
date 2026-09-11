@@ -1,0 +1,43 @@
+# Product Dossier: [Project Name]
+*Generated on: [Date] by `/audit-product`*
+
+---
+
+## 1. Executive Summary
+- **App Name / Slug**: `[app-name]`
+- **Primary Domain**: `[SaaS / E-commerce / Developer Tool / Productivity / etc.]`
+- **Core Thesis**: *[What specific problem does this existing app solve?]*
+- **Current Stage**: *[Prototype / MVP / Active Growth / Legacy Maintenance]*
+
+---
+
+## 2. Codebase & Architectural Reality
+- **Primary Tech Stack**: `[Frontend / Backend / Database / Deployment]`
+- **Key Modules & Feature Sets**:
+  - `[Module A]`: [Purpose & user flow]
+  - `[Module B]`: [Purpose & user flow]
+  - `[Module C]`: [Purpose & user flow]
+- **Third-Party Integrations**: `[Stripe, Auth0, OpenAI, AWS S3, etc.]`
+- **Database Schema Highlights**: `[Key entities and relationships]`
+
+---
+
+## 3. Product Capabilities & User Touchpoints
+- **Primary User Workflows**:
+  1. *[Step 1: Sign up & onboarding]*
+  2. *[Step 2: Core activation moment (Aha! moment)]*
+  3. *[Step 3: Ongoing recurring value]*
+- **Current Gaps & Incomplete Surfaces**:
+  - `[Missing error handling / Unimplemented screens / Stubbed APIs]`
+
+---
+
+## 4. Technical Debt & Friction Hotspots
+- **Architectural Bottlenecks**: `[Performance / Scalability limits]`
+- **Code Health Assessment**: `[Test coverage / Refactoring needs / Outdated packages]`
+
+---
+
+## 5. Strategic Recommendations
+- **Immediate Stabilization**: `[Top 1-2 urgent technical or UX fixes]`
+- **High-Leverage Enhancements**: `[Features that multiply existing value]`

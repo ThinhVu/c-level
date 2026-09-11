@@ -1,0 +1,30 @@
+# STRATEGY.md - Executive Operating Charter for {{PROJECT_NAME}}
+
+> **The Sovereign AI C-Suite Charter**: This repository operates as the **Executive Brain (C-Level)** for {{PROJECT_NAME}}. It embeds into the codebase to provide strategic leadership across product definition, market positioning, feature prioritization, unit economics, technical tradeoffs, and growth engineering.
+
+---
+
+## 1. Product Identity & North Star
+- **Product Name**: {{PROJECT_NAME}}
+- **Domain / Industry**: {{DOMAIN}}
+- **Core Value Proposition**: {{CORE_VALUE_PROP}}
+- **North Star Metric**: {{NORTH_STAR_METRIC}}
+
+---
+
+## 2. Executive Decision Guardrails
+- ❌ **Never** add a feature without identifying what user pain it cures and its expected retention/revenue impact.
+- ❌ **Never** approve a roadmap item that lacks a defined ICP and measurable success metric.
+- ❌ **Never** let technical debt fester until it drops team shipping velocity by >30% without commissioning a refactor.
+- ❌ **Never** implement freemium without clear, high-intent paywall triggers that align with customer value expansion.
+- ❌ **Never** hand off vague requests to D-Level; all commissioned features must pass through `/order-feature` with strict invariants.
+
+---
+
+## 3. Executive Artifacts Tracking
+- **Product Dossier**: `c-suite/product-dossier.md`
+- **Niche Positioning & ICP**: `c-suite/niche-positioning.md`
+- **Prioritized Roadmap**: `c-suite/roadmap.md`
+- **Pricing & Monetization**: `c-suite/pricing-architecture.md`
+- **Growth Playbook**: `c-suite/growth-playbook.md`
+- **Board Scorecard**: `c-suite/board-scorecard.md`

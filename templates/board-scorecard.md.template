@@ -1,0 +1,37 @@
+# C-Level Board Scorecard: [Project Name]
+*Generated on: [Date] by `/board-review`*
+
+---
+
+## 1. Executive Health Dashboard (Traffic Light System)
+
+| Area | Lead | Status | Score (1-10) | Key Highlight / Vulnerability |
+| :--- | :--- | :---: | :---: | :--- |
+| **Product & UX** | CPO | 🟢 / 🟡 / 🔴 | `[Score]` | `[Core user activation & friction points]` |
+| **Growth & GTM** | CMO | 🟢 / 🟡 / 🔴 | `[Score]` | `[Top-of-funnel traffic & channel traction]` |
+| **Revenue & Margins** | CRO | 🟢 / 🟡 / 🔴 | `[Score]` | `[MRR, unit economics, conversion rate]` |
+| **Tech & Architecture** | CTO | 🟢 / 🟡 / 🔴 | `[Score]` | `[Code debt, reliability, cloud/LLM burn]` |
+
+---
+
+## 2. Key Metrics Snapshot
+- **North Star Metric**: `[Current Value] (Target: [Target])`
+- **Active Users / Retention**: `[W1 / M1 Retention Rate]`
+- **MRR / Revenue**: `$[MRR] / month`
+- **Gross Margin**: `[XX]%`
+- **Engineering Velocity**: `[Features shipped per sprint / PR cycle time]`
+
+---
+
+## 3. Critical Strategic Decisions Needed
+1. **Dilemma 1**: `[e.g., Should we deprecate feature X to simplify onboarding?]`
+   - *C-Suite Recommendation*: `[Action]`
+2. **Dilemma 2**: `[e.g., Should we move from per-seat to usage-based billing?]`
+   - *C-Suite Recommendation*: `[Action]`
+
+---
+
+## 4. Next 30-Day Executive Priorities
+- 🎯 **Priority 1**: `[Objective + Owner]`
+- 🎯 **Priority 2**: `[Objective + Owner]`
+- 🎯 **Priority 3**: `[Objective + Owner]`

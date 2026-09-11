@@ -1,0 +1,44 @@
+# Pricing Architecture & Monetization Strategy: [Project Name]
+*Generated on: [Date] by `/pricing-model`*
+
+---
+
+## 1. Monetization Principles & Value Metric
+- **Primary Value Metric**: `[e.g., Active Projects / Processed Invoices / AI Generation Credits / Monthly Active Users]`
+- **Gross Margin Target**: $\ge 75\%$
+- **Paywall Philosophy**: Freemium with high-friction limits OR 14-day free trial with business credit card upfront.
+
+---
+
+## 2. Packaging & Tier Structure
+
+### 🟢 Tier 1: Free / Starter ($0/mo)
+- **Target**: Individual tinkerers / Lead generation.
+- **Quota Limit**: `[e.g., 3 projects, 100 API calls/mo]`
+- **Excluded Features**: `[Export, Team sharing, Custom domain, Priority support]`
+- **Paywall Trigger**: When user reaches `[Specific Threshold]`.
+
+### 🟡 Tier 2: Pro / Core ($[XX]/mo)
+- **Target**: Solopreneurs & boutique operators (Core ICP).
+- **Quota Limit**: `[e.g., Unlimited projects, 5,000 calls/mo]`
+- **Included Capabilities**: `[Core value, automated exports, webhook integrations]`
+- **Annual Discount**: 2 months free ($[XX * 10]/year).
+
+### 🟣 Tier 3: Team / Business ($[YY]/mo)
+- **Target**: Growing teams & high-volume power users.
+- **Quota Limit**: `[e.g., Multi-seat, unlimited usage up to fair use, SLA]`
+- **Expansion Revenue Vectors**: Additional seats, dedicated webhook bandwidth, audit logs.
+
+---
+
+## 3. Unit Economics & Cost Breakdown
+- **Estimated Infrastructure Cost per Active User**: `$[X.XX]/mo` (Hosting + DB + LLM Tokens)
+- **Contribution Margin at Pro Tier**: `[XX]%`
+- **Break-Even Volume**: `[N]` active paying customers.
+
+---
+
+## 4. Paywall Placement & Conversion Hooks
+- **Trigger Moment 1**: `[Trigger action, e.g., On 4th export attempt -> Modal showing Pro benefits]`
+- **Trigger Moment 2**: `[Feature lock, e.g., Clicking 'Invite Collaborator' opens Team Upgrade]`
+- **Trial-to-Paid Nudge Cadence**: Day 3 (Aha milestone), Day 7 (Mid-point tip), Day 12 (Expiring warning), Day 14 (Grace period offer).

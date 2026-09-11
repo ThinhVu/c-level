@@ -1,0 +1,44 @@
+# Growth Playbook & Distribution Strategy: [Project Name]
+*Generated on: [Date] by `/growth-vector`*
+
+---
+
+## 1. Distribution Philosophy
+- **Primary Acquisition Engine**: `[Product-Led Growth (PLG) / Programmatic SEO / Community Marketing / Marketplace Integration / Outbound]`
+- **Unfair Channel Advantage**: `[Existing GitHub stars, indexed domain authority, marketplace presence, etc.]`
+
+---
+
+## 2. Core Acquisition Loops
+
+### Loop A: Product-Led / Viral Loop
+- **Trigger**: User completes core action `[e.g., creates report or public link]`.
+- **Artifact**: Publicly shared artifact has `[Powered by ProjectName]` badge.
+- **Incentive**: Extra quota or free credits for referral activations.
+
+### Loop B: Programmatic Content / SEO
+- **Template Query Pattern**: `"[Topic] generator for [Niche]"` or `"[Alternative] vs [Competitor]"`
+- **Target Keywords**: `[Keyword 1, Keyword 2, Keyword 3]`
+- **Estimated Monthly Search Volume**: `[Volume]`
+
+### Loop C: Ecosystem & Directory Distribution
+- **Target Directories**: ProductHunt, AlternativeTo, SaaSHub, GitHub Trending, Chrome Web Store.
+- **Integration Marketplaces**: Zapier, Shopify App Store, Slack Directory, Raycast Store.
+
+---
+
+## 3. High-Converting Messaging & Landing Page Overhaul
+- **Hero Headline**: `[Headline addressing ICP hair-on-fire pain]`
+- **Subheadline**: `[Clear explanation of how product delivers the solution in 30 seconds]`
+- **Primary CTA**: `[Start Free in 60s / Get Started — No Credit Card]`
+- **Social Proof Elements**: `[Metrics, testimonials, open-source adoption, badge count]`
+
+---
+
+## 4. 30-Day Growth Experiment Matrix
+| Week | Experiment | Channel | Success Metric |
+| :--- | :--- | :--- | :--- |
+| **Week 1** | Launch Show HN & Reddit community demo | Reddit / HN | >50 Signups |
+| **Week 2** | Launch programmatic comparison pages | SEO | First 10 indexed clicks |
+| **Week 3** | Implement "Shareable Report" viral loop | In-App PLG | K-factor > 0.2 |
+| **Week 4** | Launch ProductHunt v1.0 | ProductHunt | Top 5 Product of Day |
