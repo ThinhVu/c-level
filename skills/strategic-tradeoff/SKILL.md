@@ -26,7 +26,7 @@ description: Acts as an executive sounding board to evaluate high-stakes dilemma
 ---
 
 ## Output Deliverable
-Generated at `c-suite/decisions/YYYY-MM-[topic].md`:
+Generated at `.c-level/decisions/YYYY-MM-[topic].md`:
 - Multi-perspective C-Suite matrix (CEO, CPO, CTO, CRO views).
 - Second-order consequence mapping (1 month, 6 months, 2 years out).
 - Executive Recommendation with explicit fallback conditions.

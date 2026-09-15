@@ -24,7 +24,7 @@ description: Audits user onboarding friction, Time-to-Value (TTV), churn risks, 
 ---
 
 ## Output Deliverable
-Generated at `c-suite/retention-audit.md`:
+Generated at `.c-level/retention-audit.md`:
 - Onboarding friction teardown with click-by-click analysis.
 - Concrete recommendations to compress Time-to-Value to under 90 seconds.
 - Habit loop blueprint (Trigger -> Action -> Variable Reward -> Investment).

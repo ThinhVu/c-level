@@ -61,7 +61,7 @@ Then initialize the executive framework in your codebase:
 
 This scaffolds:
 - **`AGENTS.md`**: The executive charter, North Star metric, and decision guardrails tailored to your project (created or enriched).
-- **`c-suite/`**: Version-controlled directory storing all product dossiers, niche positioning plans, roadmaps, pricing models, and executive specs.
+- **`.c-level/`**: Version-controlled directory storing all product dossiers, niche positioning plans, roadmaps, pricing models, and executive specs.
 
 ---
 
@@ -71,17 +71,17 @@ C-Level provides **12 modular skills** representing the core leadership function
 
 | Skill | Hat | Description & Deliverable |
 | :--- | :--- | :--- |
-| **`/setup-c-level`** | System | Initializes the `c-suite/` directory and creates/enriches `AGENTS.md` with product strategy guidelines. |
-| **`/audit-product`** | CPO / CTO | Scans routes, DB schemas, external APIs, and tests to generate the ground-truth `c-suite/product-dossier.md`. |
-| **`/niche-position`** | CEO / CMO | Pins down the sharpest niche market, Ideal Customer Profile (ICP), defensible moat, and anti-personas (`c-suite/niche-positioning.md`). |
-| **`/prioritize-roadmap`** | CPO | Scores backlog candidates with RICE; determines what to build next and creates the explicit **Will-NOT-Build** list (`c-suite/roadmap.md`). |
-| **`/pricing-model`** | CRO / CEO | Formulates value metrics, packaging tiers, paywall triggers, and unit economics margins (`c-suite/pricing-architecture.md`). |
-| **`/growth-vector`** | CMO | Designs in-app PLG loops, programmatic SEO templates, and directory distribution channels (`c-suite/growth-playbook.md`). |
+| **`/setup-c-level`** | System | Initializes the `.c-level/` directory and creates/enriches `AGENTS.md` with product strategy guidelines. |
+| **`/audit-product`** | CPO / CTO | Scans routes, DB schemas, external APIs, and tests to generate the ground-truth `.c-level/product-dossier.md`. |
+| **`/niche-position`** | CEO / CMO | Pins down the sharpest niche market, Ideal Customer Profile (ICP), defensible moat, and anti-personas (`.c-level/niche-positioning.md`). |
+| **`/prioritize-roadmap`** | CPO | Scores backlog candidates with RICE; determines what to build next and creates the explicit **Will-NOT-Build** list (`.c-level/roadmap.md`). |
+| **`/pricing-model`** | CRO / CEO | Formulates value metrics, packaging tiers, paywall triggers, and unit economics margins (`.c-level/pricing-architecture.md`). |
+| **`/growth-vector`** | CMO | Designs in-app PLG loops, programmatic SEO templates, and directory distribution channels (`.c-level/growth-playbook.md`). |
 | **`/retention-audit`** | CPO / UX | Analyzes onboarding friction, compresses Time-to-Value (TTV < 90s), and designs habit loops to stop churn. |
 | **`/strategic-tradeoff`** | CEO / Board | Evaluates hard dilemmas (e.g. rewrite vs refactor, build vs buy, monetize now vs wait) with second-order impact analysis. |
 | **`/tech-roi`** | CTO | Audits engineering velocity tax, cloud costs, and AI token unit economics to ensure high-ROI technical choices. |
-| **`/order-feature`** | CPO ⟷ D-Level | Converts a prioritized feature into an unambiguous Intent Spec for D-Level (`c-suite/specs/[slug]-intent.md`). |
-| **`/board-review`** | Full C-Suite | Runs a periodic 360° health review across Product, Growth, Tech, and Revenue with a traffic-light scorecard (`c-suite/board-scorecard.md`). |
+| **`/order-feature`** | CPO ⟷ D-Level | Converts a prioritized feature into an unambiguous Intent Spec for D-Level (`.c-level/specs/[slug]-intent.md`). |
+| **`/board-review`** | Full C-Suite | Runs a periodic 360° health review across Product, Growth, Tech, and Revenue with a traffic-light scorecard (`.c-level/board-scorecard.md`). |
 | **`/ask-c-level`** | All Chiefs | Interactive consultation command to receive consensus advice from CEO, CPO, CMO, CTO, and CRO on any question. |
 
 ---
@@ -102,24 +102,24 @@ Here is how a founder or team uses C-Level to steer an existing project:
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ 4. AUTONOMOUS EXECUTION HANDOFF                                             │
 │   /order-feature [feature-slug]                                             │
-│   └── Outputs: c-suite/specs/[feature-slug]-intent.md                       │
+│   └── Outputs: .c-level/specs/[feature-slug]-intent.md                      │
 │        │                                                                    │
 │        ▼ (Hands off to ThinhVu/d-level)                                     │
-│   /write-intent c-suite/specs/[feature-slug]-intent.md                      │
+│   /write-intent .c-level/specs/[feature-slug]-intent.md                     │
 │   /let-it-cook                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📁 The `c-suite/` Artifact Architecture
+## 📁 The `.c-level/` Artifact Architecture
 
 All strategic artifacts are clean, self-contained Markdown files stored right alongside your code:
 
 ```
 your-repo/
 ├── AGENTS.md                       # Steering Contract with C-Level Strategy & Guardrails
-├── c-suite/
+├── .c-level/
 │   ├── product-dossier.md          # Ground truth of current codebase features
 │   ├── niche-positioning.md        # Target ICP, value prop, and defensible moat
 │   ├── roadmap.md                  # RICE-ranked backlog & "Will Not Build" list
@@ -141,7 +141,7 @@ your-repo/
 C-Level is architected to be the upstream strategic brain for **`ThinhVu/d-level`**:
 
 1. **Strategic Discovery**: Use `/prioritize-roadmap` to rank what has the highest business impact.
-2. **Intent Commissioning**: Run `/order-feature <feature>` to generate acceptance invariants and anti-creep boundaries in `c-suite/specs/[feature]-intent.md`.
+2. **Intent Commissioning**: Run `/order-feature <feature>` to generate acceptance invariants and anti-creep boundaries in `.c-level/specs/[feature]-intent.md`.
 3. **Autonomous Execution**: Point D-Level's `/write-intent` and `/let-it-cook` directly at the generated spec. D-Level implements and verifies the code autonomously without human guesswork.
 
 ---

@@ -38,7 +38,7 @@ description: Analyzes existing product characteristics to define a sharp niche m
 ---
 
 ## Output Deliverable
-Generated at `c-suite/niche-positioning.md` using `templates/niche-positioning.md.template`:
+Generated at `.c-level/niche-positioning.md` using `templates/niche-positioning.md.template`:
 - Sharp niche definition & validation thesis.
 - Detailed ICP dossier & Anti-Persona boundaries.
 - Value Proposition Canvas & Unique Selling Proposition (USP).

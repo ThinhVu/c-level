@@ -1,13 +1,13 @@
 # Executive Intent Spec: [Feature Title]
 *Commissioned by C-Level on [Date] for D-Level Engineering Squad*
-*Handoff path: `c-suite/specs/[feature-slug]-intent.md` -> ready for `/write-intent` & `/let-it-cook`*
+*Handoff path: `.c-level/specs/[feature-slug]-intent.md` -> ready for `/write-intent` & `/let-it-cook`*
 
 ---
 
 ## 1. Business Justification & Strategic Rationale
 - **Target Customer / ICP**: `[Specific role or user tier]`
 - **Target Metric Impact**: `[e.g., Increase activation by 15%, unlock $29/mo tier]`
-- **RICE Priority Score**: `[Score from c-suite/roadmap.md]`
+- **RICE Priority Score**: `[Score from .c-level/roadmap.md]`
 
 ---
 

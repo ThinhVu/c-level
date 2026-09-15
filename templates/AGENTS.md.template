@@ -22,9 +22,9 @@
 ---
 
 ## 3. Executive Artifacts Tracking
-- **Product Dossier**: `c-suite/product-dossier.md`
-- **Niche Positioning & ICP**: `c-suite/niche-positioning.md`
-- **Prioritized Roadmap**: `c-suite/roadmap.md`
-- **Pricing & Monetization**: `c-suite/pricing-architecture.md`
-- **Growth Playbook**: `c-suite/growth-playbook.md`
-- **Board Scorecard**: `c-suite/board-scorecard.md`
+- **Product Dossier**: `.c-level/product-dossier.md`
+- **Niche Positioning & ICP**: `.c-level/niche-positioning.md`
+- **Prioritized Roadmap**: `.c-level/roadmap.md`
+- **Pricing & Monetization**: `.c-level/pricing-architecture.md`
+- **Growth Playbook**: `.c-level/growth-playbook.md`
+- **Board Scorecard**: `.c-level/board-scorecard.md`

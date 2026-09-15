@@ -44,7 +44,7 @@ It outputs a ranked backlog and an explicit **"Will NOT Build"** list to safegua
 ---
 
 ## Output Deliverable
-Generated at `c-suite/roadmap.md` using `templates/roadmap-prioritization.md.template`:
+Generated at `.c-level/roadmap.md` using `templates/roadmap-prioritization.md.template`:
 - Ranked Roadmap Matrix with full RICE breakdown.
 - Top #1 initiative flagged for immediate handoff via `/order-feature`.
 - Explicit "Will NOT Build" list with documented strategic reasons.

@@ -9,12 +9,18 @@ description: Scans an existing codebase to reverse-engineer actual product capab
 > *"Don't ask what the product was intended to be. Inspect what the codebase actually does today."*
 
 ## Purpose & Objective
-`/audit-product` performs a deep inspection of the repository. It analyzes routes, controllers, UI pages, database models, third-party API keys/clients, and test suites to build an objective **Product Dossier** (`c-suite/product-dossier.md`).
+`/audit-product` performs a deep inspection of the repository. It analyzes routes, controllers, UI pages, database models, third-party API keys/clients, and test suites to build an objective **Product Dossier** (`.c-level/product-dossier.md`).
+
+This ground truth document answers:
+- What does this product *actually* do today?
+- Who are the current users and what workflows do they execute?
+- What tech stack, libraries, database engines, and third-party SaaS tools are active?
+- Where is the technical and UX debt concentrated?
 
 ## When to Reach for It
-- Immediately after `/setup-c-level` to baseline the product's true capabilities.
-- When stepping into an unfamiliar codebase or inheriting a project.
-- Before major strategic planning or pivot discussions.
+- Immediately after running `/setup-c-level` on an existing codebase.
+- When taking over or onboarding onto an unfamiliar or undocumented repository.
+- Before making any strategic pivots, pricing overhauls, or architecture rewrites.
 - Triggered by typing `/audit-product`.
 
 ---
@@ -37,7 +43,7 @@ description: Scans an existing codebase to reverse-engineer actual product capab
 ---
 
 ## Output Deliverable
-Generated at `c-suite/product-dossier.md` using `templates/product-dossier.md.template`:
+Generated at `.c-level/product-dossier.md` using `templates/product-dossier.md.template`:
 - Executive summary of the app's real thesis.
 - Complete breakdown of active vs incomplete features.
 - Technical debt & friction hotspots.

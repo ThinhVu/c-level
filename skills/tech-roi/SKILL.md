@@ -24,7 +24,7 @@ description: Evaluates technical debt impact on velocity, cloud infrastructure c
 ---
 
 ## Output Deliverable
-Generated at `c-suite/tech-roi-audit.md`:
+Generated at `.c-level/tech-roi-audit.md`:
 - Technical Debt Tax assessment (% of engineering capacity lost to friction).
 - Cloud & LLM unit cost breakdown per active customer.
 - High-ROI engineering recommendations ranked by payback period.

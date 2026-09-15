@@ -31,5 +31,5 @@
 
 ## 4. Execution Sprints (Delegation to D-Level)
 - **Sprint Target**: `[Feature A]`
-- **Acceptance Invariants Spec**: `c-suite/specs/[feature-a]-intent.md`
+- **Acceptance Invariants Spec**: `.c-level/specs/[feature-a]-intent.md`
 - **Commission Command**: `/order-feature [feature-a]`

@@ -34,7 +34,7 @@ description: Designs high-margin pricing architecture, packaging tiers, paywall 
 ---
 
 ## Output Deliverable
-Generated at `c-suite/pricing-architecture.md` using `templates/pricing-architecture.md.template`:
+Generated at `.c-level/pricing-architecture.md` using `templates/pricing-architecture.md.template`:
 - Core value metric definition.
 - 3-Tier Packaging Structure (Starter, Pro, Team/Business).
 - Unit economics & infrastructure margin breakdown.

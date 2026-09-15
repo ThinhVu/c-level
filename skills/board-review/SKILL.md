@@ -24,7 +24,7 @@ description: Runs a 360-degree executive health review across Product, Growth, T
 ---
 
 ## Output Deliverable
-Generated at `c-suite/board-scorecard.md` using `templates/board-scorecard.md.template`:
+Generated at `.c-level/board-scorecard.md` using `templates/board-scorecard.md.template`:
 - Executive Traffic Light Dashboard (🟢 Green / 🟡 Yellow / 🔴 Red) with 1-10 scores per department.
 - Key metrics snapshot comparing actuals vs targets.
 - Resolution of critical open strategic dilemmas.

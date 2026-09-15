@@ -24,7 +24,7 @@ description: Identifies highest-leverage acquisition channels, Product-Led Growt
 ---
 
 ## Output Deliverable
-Generated at `c-suite/growth-playbook.md` using `templates/growth-playbook.md.template`:
+Generated at `.c-level/growth-playbook.md` using `templates/growth-playbook.md.template`:
 - Unfair distribution channel analysis based on product features.
 - Step-by-step engineering specs for in-app PLG loops.
 - Programmatic SEO keyword templates and URL structures.
