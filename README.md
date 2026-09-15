@@ -60,7 +60,7 @@ Then initialize the executive framework in your codebase:
 ```
 
 This scaffolds:
-- **`STRATEGY.md`**: The executive charter, North Star metric, and decision guardrails tailored to your project.
+- **`AGENTS.md`**: The executive charter, North Star metric, and decision guardrails tailored to your project (created or enriched).
 - **`c-suite/`**: Version-controlled directory storing all product dossiers, niche positioning plans, roadmaps, pricing models, and executive specs.
 
 ---
@@ -71,7 +71,7 @@ C-Level provides **12 modular skills** representing the core leadership function
 
 | Skill | Hat | Description & Deliverable |
 | :--- | :--- | :--- |
-| **`/setup-c-level`** | System | Initializes the `c-suite/` directory and `STRATEGY.md` charter in your codebase. |
+| **`/setup-c-level`** | System | Initializes the `c-suite/` directory and creates/enriches `AGENTS.md` with product strategy guidelines. |
 | **`/audit-product`** | CPO / CTO | Scans routes, DB schemas, external APIs, and tests to generate the ground-truth `c-suite/product-dossier.md`. |
 | **`/niche-position`** | CEO / CMO | Pins down the sharpest niche market, Ideal Customer Profile (ICP), defensible moat, and anti-personas (`c-suite/niche-positioning.md`). |
 | **`/prioritize-roadmap`** | CPO | Scores backlog candidates with RICE; determines what to build next and creates the explicit **Will-NOT-Build** list (`c-suite/roadmap.md`). |
@@ -118,7 +118,7 @@ All strategic artifacts are clean, self-contained Markdown files stored right al
 
 ```
 your-repo/
-├── STRATEGY.md                     # Executive Operating Charter & Guardrails
+├── AGENTS.md                       # Steering Contract with C-Level Strategy & Guardrails
 ├── c-suite/
 │   ├── product-dossier.md          # Ground truth of current codebase features
 │   ├── niche-positioning.md        # Target ICP, value prop, and defensible moat
